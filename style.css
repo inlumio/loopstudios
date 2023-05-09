@@ -28,6 +28,12 @@ ul {
 	list-style: none;
 }
 
+picture,
+img {
+	display: block;
+	max-width: 100%;
+}
+
 body {
 	min-height: 100vh;
 	min-height: 100dvh;
@@ -76,9 +82,9 @@ body {
 	scale: 1 1;
 }
 
-/* 
+/* ====================================
 	* HEADER
-*/
+==================================== */
 
 .header {
 	min-height: 80vh;
@@ -233,5 +239,89 @@ body {
 
 	.intro__heading {
 		width: 60%;
+	}
+}
+
+/* ====================================
+	* PAGE
+==================================== */
+
+.page {
+	padding-block: 5rem;
+}
+
+@media (min-width: 768px) {
+	.page {
+		padding-block: 8rem;
+	}
+}
+
+/* ====================================
+	* ABOUT
+==================================== */
+
+.about {
+	margin-block-end: 5rem;
+	position: relative;
+}
+
+.about__picture {
+	margin-block-end: 2rem;
+}
+
+.about__text {
+	text-align: center;
+	padding-inline: 2rem;
+}
+
+.about__heading {
+	font-family: var(--ff-josefin);
+	font-size: 2rem;
+	text-transform: uppercase;
+	margin-block-end: 1rem;
+}
+
+.about__details {
+	font-size: 0.9rem;
+	line-height: 170%;
+	color: var(--darker-gray);
+}
+
+@media (width > 768px) {
+	.about {
+		margin-block-end: 8rem;
+	}
+
+	.about__text {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		width: 60%;
+		background-color: var(--white);
+		padding: 3rem 1.5rem 0 3rem;
+		text-align: left;
+	}
+
+	.about__heading {
+		font-size: 2.75rem;
+	}
+
+	.about__details {
+		font-size: 1rem;
+	}
+}
+
+@media (width > 992px) {
+	.about__text {
+		width: 50%;
+	}
+
+	.about__heading {
+		font-size: 3.5rem;
+		margin-block-end: 1.5rem;
+	}
+
+	.about__details {
+		font-size: 1.2rem;
 	}
 }
