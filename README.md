@@ -9,6 +9,11 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
+### Screenshot
+
+![Desktop](./screenshots/screenshot-desktop.png)
+![Mobile](./screenshots/screenshot-mobile.png)
+
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/inlumio/loopstudios)
