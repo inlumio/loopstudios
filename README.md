@@ -12,7 +12,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/inlumio/loopstudios)
-- Live Site URL: [GitHub Pages](https://inlumio.github.io/tip-calculator/)
+- Live Site URL: [GitHub Pages](https://inlumio.github.io/loopstudios/)
 
 ## My process
 
